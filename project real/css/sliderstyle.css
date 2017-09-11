@@ -1,0 +1,34 @@
+.myslides{
+	display: none;
+	position: static;
+}
+.slide-copy h2{
+	margin-top: -13px;
+	text-align: center;
+}
+.slide-copy{
+	width: 200px;
+	border: 2px solid lightgreen;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 40px;
+	background: lightgreen;
+	color: white;
+	position: absolute;
+	margin:auto 550px;
+	margin-top: 280px;
+	padding: 20px 10px;
+	width: 250px;
+}
+.slide-copy:hover{
+	transition: 1s;
+	transform: scale(1.1);
+}
+.slider-img{
+	width: 100%; height: 568px;
+}
+@media screen and (max-width: 600px){
+	.slide-copy{
+		margin-left: 150px;
+	}
+}

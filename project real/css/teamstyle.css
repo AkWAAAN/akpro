@@ -1,0 +1,37 @@
+#team{
+	height: 638px; background-color: #f4fbfb;
+}
+.team_header{
+	margin:auto 550px; 
+	border-radius: 40px; 
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: lightblue;
+	border: 2px solid lightblue;
+	height: 50px;
+}
+.team_header h2{
+	margin-top: 7px;
+}
+.team-area{
+	margin-left: 4px;width: 99%; margin-top: 40px;
+}
+.team-panal{
+	width: 23%; margin-left: 20px;background-size: cover; height: 450px; 
+}
+.member-info{
+	margin-top: 10px;
+}
+.member-info h2{
+	margin-top: 0;
+}
+.member-info h4{
+	margin-top: -10px;
+	margin-right: 35px;
+}
+.member-img{
+	margin-top: 20px;
+}
+.member-img img{
+	border-radius: 150px;
+}

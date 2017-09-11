@@ -1,0 +1,254 @@
+<!DOCTYPE html><!-- background-color: rgba(42, 59, 85, 0.8); -->
+<html>
+<head>
+	<title>if designerz</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/pageloaderstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/navstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/sliderstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/servicestyle.css">
+	<link rel="stylesheet" type="text/css" href="css/teamstyle.css">
+</head>
+<style>
+	body{
+		background: url(img/background.png);
+		font-family: 'Ubuntu Light';
+	}
+</style>
+<body onload="myFunction()" style="margin:0;">
+<!--Nav bar-->
+<div id="loader"></div>
+<!-- style="display:none;" -->
+<div id="myDiv" class="animate-bottom">
+
+<nav id="navb">
+	<div class="topnav" id="mytopnav">
+		<div class="row">
+			<div class="col-md-2">
+				<img id="logo-img" src="img/logo.png">
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-8" style="height: 50px;">
+				<div class="navbar-right">
+				<a href="javascript:void(0);" style="font-size: 20px; color: white;" class="icon" onclick="navfunction()">&#9776;</a>
+					<ul id="nav" class="links nav nav-pills" role="tablist">
+						<li class="nav-link active" id="home-link"><a href="#slider"><h4>ABOUT</h4></a></li>
+					    <li class="nav-link" id="service-link"><a href="#service"><h4>SERVICES</h4></a></li>
+					    <li class="nav-link" id="team-link"><a href="#team"><h4>TEAM</h4></a></li> 
+					    <li class="nav-link" id="client-link"><a href="#client"><h4>CLIENTS</h4></a></li>
+					    <li class="nav-link" id="contact-link"><a href="#contact"><h4>CONTACTS</h4></a></li>        
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+
+<!--Slider-->
+<section id="slider">
+	<div class="myslides">
+		<div class="slide-copy">
+			<h2>Logo1  <span>>></span></h2>
+		</div>
+		<img src="img/1.jpg" class="slider-img">
+	</div>
+	<div class="myslides">
+		<div class="slide-copy">
+			<h2>Logo2  <span>>></span></h2>
+		</div>
+		<img src="img/2.jpg" class="slider-img">
+	</div>
+	<div class="myslides">
+		<div class="slide-copy">
+			<h2>Logo3  <span>>></span></h2>
+		</div>
+		<img src="img/3.jpg" class="slider-img">
+	</div>
+</section>
+<!--Service-->
+<section class="containver-fluid" id="service">
+	<br>
+	<div class="service-header text-center">
+		<h2>SERVICES</h2>
+	</div>
+	<br>
+	<div class="row text-center service-panal-row">
+		<div class="col-md-3 service-panal" style="background-image: url(img/1.jpg);">
+			<div class="service-gradiant">
+				<h3>Graphic Designing</h3>
+				<div class="panal-icon">
+					<img class="img-circle" src="img/Lion.ico">
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et.</p>
+				<div class="service-buttons">
+					<button class="service-portfolio-button">Portfolio</button>
+					<button class="service-place-Order-button">Place Order</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 service-panal" style="background-image: url(img/3.jpg);">
+			<div class="service-gradiant">
+				<h3>Graphic Designing</h3>
+				<div class="panal-icon">
+					<img class="img-circle" src="img/imageres_1027.ico">
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et.</p>
+				<div class="service-buttons">
+					<button class="service-portfolio-button">Portfolio</button>
+					<button class="service-place-Order-button">Place Order</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 service-panal" style="background-image: url(img/2.jpg);">
+			<div class="service-gradiant">
+				<h3>Graphic Designing</h3>
+				<div class="panal-icon">
+					<img class="img-circle" src="img/Elephant.ico">
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et.</p>
+				<div class="service-buttons">
+					<button class="service-portfolio-button">Portfolio</button>
+					<button class="service-place-Order-button">Place Order</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 service-panal" style="background-image: url(img/2.jpg);">
+			<div class="service-gradiant">
+				<h3>Graphic Designing</h3>
+				<div class="panal-icon">
+					<img class="img-circle" src="img/imageres_6400.ico">
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore.</p>
+				<div class="service-buttons">
+					<button class="service-portfolio-button">Portfolio</button>
+					<button class="service-place-Order-button">Place Order</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Divider-->
+<section style="background-image: url(img/dividerback.jpg); background-size: cover; color: white;">
+	<div class="container">
+		<div class="text-center">
+			<div class="row">
+				<div class="col-md-12">
+					<h5 style="margin-top: 100px; margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+				<h4>&mdash; Akash Matloob <a href="#" style="color: lightgreen">www.ifdesinerz.com</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Team-->
+
+<section id="team" class="container-fluid">
+<br>
+	<div class="text-center team_header">
+		<h2>Our Team!</h2>
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut.</p>
+<br>
+	<div class="row team-area">
+		<div class="col-md-3 team-panal">
+			<div id="members1_info">
+				<div class="member-img text-center">
+					<img class="img-thumbnail" src="img/members1.jpg">
+				</div>
+				<div class="text-center member-info">
+					<b><h2>Alciva Janiferr</h2></b>
+					<h4 class="text-right">Developer</h4>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-md-3 team-panal">
+			<div id="members2_info">
+				<div class="text-center member-img">
+					<img class="img-thumbnail" src="img/members2.jpg">
+				</div>
+				<div class="text-center member-info">
+					<b><h2>Akash Matloob</h2></b>
+					<h4 class="text-right">Developer</h4>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="col-md-3 team-panal">
+			<div id="members3_info">
+				<div class="text-center member-img">
+					<img class="img-thumbnail" src="img/members3.jpg">
+				</div>
+				<div class="text-center member-info">
+					<b><h2>malfoy denizer</h2></h2>
+					<h4 class="text-right">Developer</h4>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="col-md-3 team-panal">
+			<div id="members4_info">
+				<div class="text-center member-img">
+					<img class="img-thumbnail" src="img/members4.jpg" style="height: 250px;">
+				</div>
+				<div class="text-center member-info">
+					<b><h2>Alina Alexandar</h2></b>
+					<h4 class="text-right">Developer</h4>
+				</div>
+			</div>
+		</div>
+	</div>	
+</section>
+
+<!--Divider-->
+
+<div style="background-image: url(img/dividerback.jpg); background-size: cover; height: 300px;">
+<br><br><br>
+<br>
+<br>
+<div>
+	<img src="img/Image 1 (1).png" style="margin-left: 412px;">
+	<div style="width: 410px; position: relative; border-radius: 25px; background-color: rgb(46,184,163); height: 50px; margin-top: -12px;margin-left: 470px;">
+		<h2 style="position: absolute; font-size: 30px;  margin-left: 27px; margin-top: 8px; color: white;">Service Exchange Program</h2>
+	</div>
+</div>
+</div>
+
+
+<section id="client" style="background-color: teal;">
+	
+</section>
+
+
+<section id="contact" style="background-color: rgb(153,50,204)">
+	
+</section>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/pageloaderscript.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/scrol-sections.js"></script>
+<script type="text/javascript" src="js/navscript.js"></script>
+<script type="text/javascript" src="js/sliderscript.js"></script>
+</body>
+</html>
